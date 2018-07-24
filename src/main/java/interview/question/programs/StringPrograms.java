@@ -4,7 +4,7 @@ public class StringPrograms {
 
 	public static void main(String[] args) {
 		
-		System.out.println("converting string to integer ");
+		/*System.out.println("converting string to integer ");
 		
 		String s="100";
 		int i=Integer.parseInt(s);
@@ -61,12 +61,12 @@ public class StringPrograms {
 		
 		String s8="This as arjan arom qa";
 		
-		System.out.println(s8.length());
+	/*	System.out.println(s8.length());
 		System.out.println(s8.charAt(3));
 		System.out.println(s8.substring(0, 10));
 		System.out.println(s8.substring(1));
 		System.out.println(s8.indexOf("i"));
-		System.out.println(s8.lastIndexOf("a"));
+		System.out.println(s8.lastIndexOf("a"));*/
 		
 		//String s8="This as arjan arom qa";
 		//System.out.println(s8.indexOf("a"));//it will print first a 
@@ -75,7 +75,7 @@ public class StringPrograms {
 		//System.out.println(s8.indexOf('a',s8.indexOf('a', s8.indexOf('a', s8.indexOf('a')+1)+1)+1));// it will print 4th a
 		//System.out.println(s8.indexOf('a',s8.indexOf('a',s8.indexOf('a', s8.indexOf('a', s8.indexOf('a')+1)+1)+1)+1));// it will print last a for last letter we have another method lastIndexOf(args);
 		
-		int firstA=s8.indexOf("a");
+		/*int firstA=s8.indexOf("a");
 		System.out.println(firstA);
 		
 		int secondA=s8.indexOf('a', firstA+1);
@@ -88,7 +88,12 @@ public class StringPrograms {
 		System.out.println(forthA);
 		
 		int fifthA=s8.indexOf('a', forthA+1);
-		System.out.println(fifthA);
+		System.out.println(fifthA);*/
+				
+		String arjun="seleniumseleniumqaqaseleniumqaseleniumqa";
+			
+		System.out.println(arjun.indexOf('s'));
+		System.out.println(arjun.indexOf('e', arjun.indexOf('e')+1));
 		
 		
 		
