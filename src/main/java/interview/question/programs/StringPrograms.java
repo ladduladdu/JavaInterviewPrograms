@@ -94,26 +94,6 @@ public class StringPrograms {
 			
 		System.out.println(arjun.indexOf('s'));
 		System.out.println(arjun.indexOf('e', arjun.indexOf('e')+1));
-		
-		
-		
-		
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 	}
 }
