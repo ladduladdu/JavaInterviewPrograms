@@ -25,12 +25,14 @@ public class Numbers extends PrintingPattern
 		
 		 * int value=1;
 		 * 
-		 * for (int i = 1; i <=4; i++) {// to check factorial value=value*i; }
+		 * for (int i = 1; i <=4; i++) {
+		 * // to check factorial value=value*i; }
 		 * System.out.println(value);
 		 
 
 		
-		 * int n=2; for (int i = 5; i <=10; i++) {//printing multipliction table for
+		 * int n=2; for (int i = 5; i <=10; i++) {
+		 * //printing multipliction table for
 		 * (int j = 1; j <=10; j++) { System.out.println(i+" X " +j+ "="+i*j); } }
 		 
 

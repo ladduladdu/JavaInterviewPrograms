@@ -93,7 +93,9 @@ public class StringPrograms {
 		String arjun="seleniumseleniumqaqaseleniumqaseleniumqa";
 			
 		System.out.println(arjun.indexOf('s'));
+		System.out.println(arjun.indexOf('e'));
 		System.out.println(arjun.indexOf('e', arjun.indexOf('e')+1));
+		System.out.println(arjun.indexOf('e',arjun.indexOf('e',arjun.indexOf('e')+1)+1));
 			
 	}
 }
