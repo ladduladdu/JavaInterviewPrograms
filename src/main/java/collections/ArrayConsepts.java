@@ -2,14 +2,13 @@ package collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class ArrayConsepts {
 
 	public static void main(String[] args) {
 
-		List<String> colour = new ArrayList<String>();
-		// Adding values into List
+		ArrayList<String> colour = new ArrayList<String>();
+		// Adding values into ArrayList
 		colour.add("Red");
 		colour.add("Blue");
 		colour.add("Green");
@@ -20,7 +19,7 @@ public class ArrayConsepts {
 		System.out.println(colour);
 
 		// Extracting a portion
-
+		// swap the values
 		Collections.swap(colour, 0, 4);
 		System.out.println(colour);
 
@@ -34,11 +33,11 @@ public class ArrayConsepts {
 
 		// List<String> exvalues=colour.subList(0, 3);
 		// System.out.println(exvalues);
-		//
+	
 		// List<String> colour3=new ArrayList<String>();
 
 		// for (String str : colour3) {
-		//
+	
 		// colour.add(exvalues.contains(str) ? "Yes":"No");
 		// }
 
@@ -47,10 +46,10 @@ public class ArrayConsepts {
 
 		// Shufling array Values
 		// Collections.shuffle(colour);
+		
+		
 		// Reversing array values
-
 		// Collections.reverse(colour);
-		//
 		// System.out.println(colour);
 
 		// List<String> colour2=new ArrayList<String>();
@@ -71,13 +70,13 @@ public class ArrayConsepts {
 		// System.out.println(colour.get(2));
 		// Saerching paricular value from ArrayList
 		// if (colour.contains("Green")) {
-		//
+		
 		// System.out.println("Element Found ");
-		//
+		
 		// } else {
-		//
+		
 		// System.out.println("Element not Found");
-		//
+	
 		// }
 
 	}
