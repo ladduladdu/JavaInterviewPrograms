@@ -88,7 +88,7 @@ public class StringPrograms {
 		System.out.println(forthA);
 		
 		int fifthA=s8.indexOf('a', forthA+1);
-		System.out.println(fifthA);*/
+		System.out.println(fifthA);
 				
 		String arjun="seleniumseleniumqaqaseleniumqaseleniumqa";
 			
@@ -96,6 +96,20 @@ public class StringPrograms {
 		System.out.println(arjun.indexOf('e'));
 		System.out.println(arjun.indexOf('e', arjun.indexOf('e')+1));
 		System.out.println(arjun.indexOf('e',arjun.indexOf('e',arjun.indexOf('e')+1)+1));
+		*/
+		
+		String str="Arjun*123";
+		
+		
+		if (str.contains("*")) {
+			System.out.println("Given value available");
+			
+		}
+		else
+		{
+			System.out.println("Given value not avilable");
+		}
+		
 			
 	}
 }
